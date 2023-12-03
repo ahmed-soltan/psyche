@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Default height for small devices */
+#intro-example {
+  height: 400px;
+}
+.banner{
+  height: 70vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./assets/pexels-antoni-shkraba-5214958.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div.service{
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  height: 300px;
+}
+.search{
+  position: relative;
+}
+.fa-magnifying-glass{
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+.team
+{
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  height: 350px;
+}
+.teams{
+  
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
