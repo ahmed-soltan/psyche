@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import banner from "../assets/banner.png";
 const Banner = () => {
   return (
     <div className="banner">
       <div className="container">
         <div className="row">
-          <div className="col-12" style={{ marginTop: "200px" }}>
+          <div className="col-12 content">
             <h1 className="text-white">
               AI-DOCTOR Welcome to PsycheBoost I will be your friend during the
               journey of strengthening your psychology until we begin the

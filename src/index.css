@@ -26,7 +26,7 @@ code {
 div.service{
   box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
   margin: 15px 0;
-  height: 400px;
+  min-height: 100%;
 }
 .search{
   position: relative;
@@ -42,14 +42,21 @@ div.service{
   margin: 15px 0;
   height: 350px;
 }
+.content{
+  margin-top: 200px;
+}
+
 .teams{
   
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
 /* Height for devices larger than 992px */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   #intro-example {
     height: 600px;
+  }
+  .content{
+    margin-top: 20px !important;
   }
 }
