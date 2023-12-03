@@ -1,5 +1,5 @@
 import React from 'react'
-import hard from '../assets/hard.mp4'
+import hard from '../assets/med.mp4'
 const Hard = () => {
   return (
     <div className='container my-5'>

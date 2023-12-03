@@ -1,5 +1,6 @@
 import React from 'react'
-import Med from '../assets/med.mp4'
+import Med from '../assets/hard.mp4'
+
 const Medium = () => {
   return (
     <div className='container my-5'>

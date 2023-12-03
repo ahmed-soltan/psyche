@@ -7,14 +7,14 @@ const Result = () => {
       <h1 className="display-3 fw-bold">Choose Your Test Result :</h1>
       <div className="buttons">
         <NavLink to='/hard'>
-          <button className="btn btn-danger px-5 py-3 fs-3 text-white m-3">Hard</button>
+          <button className="btn btn-danger px-5 py-3 fs-3 text-white m-3">Hard Depression</button>
         </NavLink>
         <NavLink to='/medium'>
-          <button className="btn btn-warning px-5 py-3 fs-3 text-white m-3">Medium</button>
+          <button className="btn btn-warning px-5 py-3 fs-3 text-white m-3">Medium Depression</button>
         </NavLink>
-        {/* <NavLink>
-          <button className="btn btn-success px-5 py-3 fs-3 text-white m-3">Easy</button>
-        </NavLink> */}
+        <NavLink>
+          <button className="btn btn-success px-5 py-3 fs-3 text-white m-3">Easy Depression</button>
+        </NavLink>
       </div>
       <hr className="w-100" />
       <About />
