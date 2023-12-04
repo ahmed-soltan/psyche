@@ -12,6 +12,7 @@ import Medium from './Pages/Medium'
 import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import ServicePage from './Pages/ServicePage'
+import Final from './Pages/Final'
 const App = () => {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ const App = () => {
            <Route path='/result' element={<Result/>}/>
            <Route path='/hard' element={<Hard/>}/>
            <Route path='/medium' element={<Medium/>}/>
+           <Route path='/final' element={<Final/>}/>
            <Route path='/login' element={<Login/>}/>
            <Route path='/signup' element={<Signup/>}/>
        </Routes>
