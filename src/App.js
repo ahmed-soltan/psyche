@@ -13,9 +13,11 @@ import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import ServicePage from './Pages/ServicePage'
 import Final from './Pages/Final'
+import ChatbotComponent from './Components/ChatbotComponent'
 const App = () => {
   return (
     <BrowserRouter>
+    {/* <ChatbotComponent/> */}
     <Navbar/>
     <Nav/>
        <Routes>

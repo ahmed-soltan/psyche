@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className="m-5 ">
       <h1 className="text-center my-5">Our Services</h1>
-      <div className="row mt-5">
+      <div className="row justify-content-center mt-5">
         <div className="col-lg-3 col-md-6 col-sm-12 text-center service">
           <h2>
             <i class="fa-solid fa-truck-medical text-primary fs-1"></i>
